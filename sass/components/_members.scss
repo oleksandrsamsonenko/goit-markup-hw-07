@@ -1,0 +1,35 @@
+.members {
+  display: flex;
+}
+
+.members__card {
+  background-color: var(--primary-white-color);
+  margin-right: 30px;
+  border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+
+  &last-child {
+    margin-right: 0;
+  }
+}
+
+.members__name {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.members__job {
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  margin-bottom: 16px;
+  margin-top: 0;
+  text-align: center;
+}

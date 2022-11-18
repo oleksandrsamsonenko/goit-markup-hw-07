@@ -1,0 +1,13 @@
+.header {
+    align-items: center;
+    padding-left: 0;
+    background-color: var(--primary-white-color);
+    border-bottom: 1px solid #ececec;
+    max-width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header__container {
+    display: flex;
+}

@@ -1,0 +1,32 @@
+.contact-us {
+  display: flex;
+  margin-left: auto;
+  align-items: center;
+  gap: 30px;
+}
+
+.contact-us__link {
+  display: flex;
+  align-items: center;
+  color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  gap: 10px;
+  transition: color var(--timing);
+
+  &:focus,
+  &:hover {
+    color: var(--accent-color);
+  }
+}
+
+.contact-us__icon {
+  fill: currentColor;
+
+  &:hover,
+  &:focus {
+    fill: currentColor;
+  }
+}
