@@ -2,6 +2,7 @@
 
 @import './utils/variables';
 @import './utils/visually-hidden';
+@import './utils/backdrop';
 
 // BASE
 
@@ -11,8 +12,7 @@
 @import './base/container';
 
 // COMPONENTS
-@import './components/modal';
-@import './components/modal-form';
+
 @import './components/header';
 @import './components/navigation';
 @import './components/contact-us.scss';
@@ -25,3 +25,11 @@
 @import './components/clients';
 @import './components/selection';
 @import './components/examples';
+@import './components/logo';
+@import './components/footer';
+@import './components/address';
+@import './components/join-us';
+@import './components/subscribe';
+
+@import './components/modal';
+@import './components/form';

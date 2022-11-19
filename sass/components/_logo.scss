@@ -1,0 +1,24 @@
+.logo {
+  display: block;
+  font-family: raleway, sans-serif;
+  color: #000000;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  margin-top: 24px;
+  margin-bottom: 25px;
+}
+
+.logo__text {
+  color: var(--accent-color);
+}
+
+.logo__accent {
+  color: var(--primary-white-color);
+}
+
+.logo.logo__footer {
+  margin: 0;
+}

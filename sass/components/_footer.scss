@@ -1,0 +1,16 @@
+.footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: var(--primary-darkgrey-color);
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer__container {
+  display: flex;
+}
+
+.footer__item {
+  width: 300px;
+}

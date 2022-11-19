@@ -1,0 +1,35 @@
+.join-us__title {
+  margin: 0;
+  text-transform: uppercase;
+  color: var(--primary-white-color);
+  font-size: 14px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+}
+
+.join-us__list {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.join-us__link {
+  display: flex;
+  width: 44px;
+  height: 44px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  color: var(--primary-white-color);
+  transition: background-color var(--timing);
+
+  &:hover,
+  &:focus {
+    background-color: var(--accent-color);
+  }
+}
+
+.join-us__logo {
+  fill: var(--primary-white-color);
+}
